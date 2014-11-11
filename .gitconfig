@@ -1,0 +1,24 @@
+[user]
+  name = Jarred Humphrey
+  email = jarred@adaptly.com
+[github]
+  user = jarredlhumphrey
+[alias]
+  s = status
+  c = commit
+  b = branch
+  co = checkout
+  ciff = diff --cached
+  list = log --name-only
+  l = log --pretty='%C(white)%h%C(green) %ad %C(yellow)%aN  %C(white)%s %C(red)%d' --date=short -10
+  g = "grep"
+  graph = "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
+  v = "remote -v"
+[color]
+  ui = auto
+[core]
+  editor = /usr/bin/emacs
+  excludesfile = /Users/jarred/.gitignore_global
+[push]
+  default = simple
+
