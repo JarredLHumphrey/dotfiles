@@ -2,6 +2,9 @@
 #Path updates
 source ~/bin/path.bash
 
+#Project aliases/config
+source ~/bin/project.bash
+
 #Utility aliases/config
 source ~/bin/utilities.bash
 
